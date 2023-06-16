@@ -1,5 +1,6 @@
 body{
   margin: 0;
-  background-color: var(--color-background);
+  background-color: var(--color-background-secundary);
   font-size: 20px;
+  font-family: 'Poppins';
 }

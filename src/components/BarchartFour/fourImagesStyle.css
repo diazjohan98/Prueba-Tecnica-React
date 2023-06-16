@@ -1,0 +1,20 @@
+.fourContainerImages {
+  width: 52%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin: 0;
+}
+
+.fourImagesChat {
+  width: 50%;
+}
+.grid-item {
+  width: 100%;
+  margin: 0;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}

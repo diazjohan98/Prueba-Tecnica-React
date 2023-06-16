@@ -6,6 +6,11 @@
     align-items: center;
     padding: 9px;
     border-radius: 12px;
+    cursor: pointer;
+}
+
+.containerPhotoAutor:hover{
+    background-color: var(--color-btnHover);
 }
 
 .imgPerfil{
