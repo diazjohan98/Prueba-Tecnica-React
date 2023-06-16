@@ -1,0 +1,91 @@
+.navbar{
+    background-color: var(--color-background-secundary);
+    width: 100%;
+    height: 70px;
+}
+.navbarContainer{
+    display: flex;
+    padding-top: 18px;
+    align-items: center;
+}
+.logoNavbar {
+    width: 67.16px;
+    height: 32.48px;
+    margin-right: 80px;
+}
+
+.iconoHamburguesa{
+    /* margin-top: 18px; */
+    margin-left: 1.5rem;
+    margin-right: 22px;
+    color: var(--color-fontSecundary); 
+}
+.input-wrapper {
+    position: relative;
+    /* width: 271px; */
+ }
+.input-icon {
+    color: #B9B9B9; 
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 500px;
+    top: 50%;
+    transform: translateY(-50%);
+ }
+.styleInput{
+    background-color: var(--color-inputSearch);
+    color: #B9B9B9;
+    border: none;
+    width: 500px;
+    padding: 10px;
+    padding-left: 35px;
+    border-radius: 12px;
+}
+
+.iconoSettings{
+    background-color: var(--color-primary);
+    color: var(--color-fontSecundary);
+    padding: 7px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.iconoSettings:hover{
+    background-color: var(--color-btnHover);
+}
+
+.tresIconosNotifica{
+    margin-left: 200px;
+}
+
+.iconoNotificaciones{
+    background-color: var(--color-alert);
+    color: var(--color-primary);
+    padding: 7px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.iconoNotificaciones:hover{
+    background-color: var(--color-btnHover);
+    color: var(--color-alert);
+}
+
+.iconoNotificaciones1{
+    background-color: var(--color-alert);
+    color: #8D98A4;
+    padding: 7px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.iconoNotificaciones1:hover{
+    background-color: #8D98A4;
+    color: var(--color-alert);
+}
+

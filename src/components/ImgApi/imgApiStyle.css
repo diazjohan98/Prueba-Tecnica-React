@@ -1,0 +1,30 @@
+.containerPhotoAutor  {
+    border: 0.01px solid #3e3b3b;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 80px;
+    align-items: center;
+    padding: 9px;
+    border-radius: 12px;
+}
+
+.imgPerfil{
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+}
+
+.autorPerfil{
+    color: var(--color-fontSecundary);
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin: 0px;
+    font-size: 15px;
+    margin-left: 16px;
+}
+
+.iconoFill{
+    color: var(--color-fontSecundary);
+    font-size: 10px;
+    margin-left: 5px;
+}

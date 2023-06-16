@@ -1,13 +1,14 @@
 :root{
-  --color-primary: #6369FD;  
-  --color-btnHover: #4d53fa;
-  --color-alertLogin: #F36A6A;
+  --color-primary: #13B497;  
+  --color-btnHover: #0c957c;
+  --color-alert: #2F363D;
   --color-alertLoginFont: #8D3030;
   --color-fontSecundary: #fff;
-  --color-background: #24292E;
+  --color-background-secundary: #24292E;
+  --color-background: #2D3339;
   --color-login-background: #EEEEEE;
   --color-fund-dashboard: #8C8282;
-  --color-card-activos: #4cc138;
+  --color-inputSearch: #1C2126;
   --color-card-inactivos: #BFC138;
   --color-card-suspendidos: #3890C1; 
   --color-card-retirados: #C13838; 
