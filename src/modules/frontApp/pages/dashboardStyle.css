@@ -1,5 +1,6 @@
 .containerPrincipalDashboard{
-    display: flex;
+    width: 100%;
+    display: flex; 
     justify-content: space-between;
     margin-top: 30px;
 }
@@ -26,4 +27,15 @@
 
 .containerFourBarchar{
     margin: 20px 0px 0px -4px;
+}
+
+.containerCarouselPrincipal{
+    width: 30%;
+    float: left;
+
+
+} 
+
+.containerFooter{
+    /* display: flex; */
 }
