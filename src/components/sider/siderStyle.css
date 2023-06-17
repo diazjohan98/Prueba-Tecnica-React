@@ -1,0 +1,13 @@
+
+.swiper-button-next, .swiper-button-prev {
+  color: var( --color-primary) !important; 
+}
+.swiper-pagination-bullet-active{
+  color: var( --color-primary) !important; 
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+}
+.imgCarouselStyle{
+  border-radius: 12px;
+}
