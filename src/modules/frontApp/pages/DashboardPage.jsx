@@ -26,6 +26,7 @@ const DashboardPage = () => {
       </div>
 
       <div className='containerCarouselPrincipal'>
+        <p className='titleCarousel'>Event Galleries</p>
         <Carousel />
       </div>
     </div>

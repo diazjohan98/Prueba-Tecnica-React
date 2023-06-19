@@ -14,7 +14,7 @@
     margin-right: 80px;
 }
 
-.iconoHamburguesa{
+.iconoGiHamburguesa{
     /* margin-top: 18px; */
     margin-left: 1.5rem;
     margin-right: 22px;
@@ -89,3 +89,56 @@
     color: var(--color-alert);
 }
 
+@media (max-width: 400px) {
+    .styleInput{
+        display: none;
+    }
+    .input-wrapper{
+        display: none;
+    }
+    .iconoSettings{
+        display: none;
+    }
+    .iconoMensaje{
+        display: none;
+    }
+    .iconoNotificaciones1{
+        display: none;
+    }
+
+    .autorPerfil{
+        display: none;
+    }
+
+    .iconoGiHamburguesa{
+        visibility: hidden;
+    }
+
+    .logoNavbar{
+        margin-left: 10px;
+    }
+
+    .containerPhotoAutor {
+        border: none !important;
+        margin-left: 6px !important;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 10px;
+    }
+    .tresIconosNotifica{
+        margin-left: 14rem;
+    }
+    .titlesPrincipalesBest{
+        width: 92%;
+        align-items: center;
+    }
+    .divisionDosContainerBest{
+        width: 123% !important;
+    }
+
+    .imgBarchat{
+        display: none;
+    }
+}

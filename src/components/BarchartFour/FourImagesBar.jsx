@@ -9,16 +9,16 @@ const FourImagesBar = () => {
     return (
         <div className='fourContainerImages'>
             <div class="grid-item">
-                <img className='fourImagesChat' src={imgProgress} alt="" />
+                <img className='fourImagesChat imgProgress' src={imgProgress} alt="" />
             </div>
             <div class="grid-item">
-                <img className='fourImagesChat' src={imgWave} alt="" />
+                <img className='fourImagesChat imgWave' src={imgWave} alt="" />
             </div>
             <div class="grid-item">
-                <img className='fourImagesChat' src={imgWaveLine} alt="" />
+                <img className='fourImagesChat imgWaveLine' src={imgWaveLine} alt="" />
             </div>
             <div class="grid-item">
-                <img className='fourImagesChat' src={imgPieChat} alt="" />
+                <img className='fourImagesChat imgPieChat' src={imgPieChat} alt="" />
             </div>
         </div>
     )
