@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="navbarContainer">
-                <GiHamburgerMenu className='iconoHamburguesa' />
+                <GiHamburgerMenu className='iconoGiHamburguesa' />
                 <img className='logoNavbar' src={logo} alt="Logo" />
                 <div className='input-wrapper'>
                     <input type="text" placeholder='Search here' className='styleInput' />
@@ -32,8 +32,8 @@ const Navbar = () => {
                 <AiOutlineSetting className='iconoSettings' />
 
                 <div className='tresIconosNotifica'>
-                    <IoIosNotificationsOutline className='iconoNotificaciones' />
-                    <BiMessageDetail className='iconoNotificaciones' />
+                    <IoIosNotificationsOutline className='iconoNotificaciones iconoCampana' />
+                    <BiMessageDetail className='iconoNotificaciones iconoMensaje' />
                     <AiOutlineGift className='iconoNotificaciones1' />
                 </div>
                 <div className='perfilPhoto'>

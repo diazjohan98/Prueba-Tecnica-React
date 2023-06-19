@@ -11,3 +11,10 @@
 .imgCarouselStyle{
   border-radius: 12px;
 }
+
+@media (max-width: 400px){
+  .imgCarouselStyle{
+    width: 481px !important;
+    margin-left: -10rem;
+  }
+}
