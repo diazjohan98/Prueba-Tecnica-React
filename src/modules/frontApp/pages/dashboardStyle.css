@@ -30,8 +30,10 @@
 }
 
 .containerCarouselPrincipal{
-    width: 30%;
-    float: left;
+    width: 44.3%;
+    float: right;
+    margin-right: 37px;
+    margin-top: -525px;
 
 
 } 

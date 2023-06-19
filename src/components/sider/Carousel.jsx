@@ -23,16 +23,16 @@ const Carousel = () => {
     scrollbar={{ draggable: true }}
     >
       <SwiperSlide>
-        <img src={slide1} alt="" style={{width: "500px"}} className='imgCarouselStyle' />
+        <img src={slide1} alt="" style={{width: "635px"}} className='imgCarouselStyle' />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slide2} alt="" style={{width: "500px"}} className='imgCarouselStyle' />
+        <img src={slide2} alt="" style={{width: "635px"}} className='imgCarouselStyle' />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slide3} alt="" style={{width: "500px"}} className='imgCarouselStyle' />
+        <img src={slide3} alt="" style={{width: "635px"}} className='imgCarouselStyle' />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slide4} alt="" style={{width: "500px"}} className='imgCarouselStyle' />
+        <img src={slide4} alt="" style={{width: "635px"}} className='imgCarouselStyle' />
       </SwiperSlide>
     </Swiper>
   )
