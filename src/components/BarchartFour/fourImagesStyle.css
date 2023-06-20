@@ -19,7 +19,7 @@
   height: auto;
 }
 
-@media (max-width: 400px){
+@media (max-width: 420px){
   .imgWaveLine{
     display: none;
   }

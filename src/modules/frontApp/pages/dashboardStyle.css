@@ -45,7 +45,7 @@
   font-size: 22px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
 
   .containerPrincipalDashboard {
     width: 100%;
